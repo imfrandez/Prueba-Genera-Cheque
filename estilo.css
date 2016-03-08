@@ -1,0 +1,127 @@
+body{
+	background: #f4f4f4;
+	line-height: 1.6em;
+}
+h2, p{
+	text-align: center;
+	color: #4d4d4d;
+	line-height: 14px;
+
+}
+.formulario{
+	padding: 20px;
+	background: #14181f;
+	width: 80%;
+	margin: auto;
+	border: 1px solid #262b37;
+	color: white;
+
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #262b37;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #262b37;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #262b37;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #262b37;
+}
+.campo{
+	padding: 20px;
+	width: 100%;
+	margin: auto;
+	background: #14181f;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid #262b37;
+	box-sizing: border-box;
+	color: white;
+}
+.ui-datepicker-trigger{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top:-37px;
+	right: -10px;
+}
+.error{
+	display: block;
+	padding: 10px;
+	text-align: center;
+	color: #dc2e4c;
+}
+.resultado{
+	width: 30%;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	background: #3c9490;
+	border: 2px solid #3c9490;
+	font-size: 18px;
+	color: white;
+}
+#cheque{
+	padding: 40px;
+	width: 90%;
+	border: 1px solid #d2d6d5;
+	background: #e1e3e4;
+	box-sizing: border-box;
+	margin: 30px auto 0;
+	line-height: 40px;
+	font-size: 18px;
+	color: #4d4d4d;
+}
+.logo img{
+	width: 200px;
+}
+.fecha , .cantidad, .firma{
+	width: 50%;
+	display: inline-block;
+	border-bottom: 1px solid #d2d6d5;
+}
+.nombre , .suma{
+	width: 100%;
+	border-bottom: 1px solid #d2d6d5;
+	display: block;
+}
+.firma img{
+	width: 200px;
+	margin: 20px 20px -30px 20px;
+}
+
+.limpiar{
+	display: block;
+	background: #dc2e4c;
+	padding: 3px;
+	margin: 30px auto 0;
+	width: 20%;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+/* Smartphones ----------- */
+@media only screen and (max-width : 768px) {
+/* Styles */
+.resultado{
+	width: 80%;
+}
+.campo{
+	font-size: 14px;
+}
+h2,p{ line-height: 24px;}
+
+.fecha , .cantidad, .firma{
+	width: 100%;
+	}
+.cheque{
+	text-align: center;
+}
+.limpiar{
+	width: 80%;
+}
